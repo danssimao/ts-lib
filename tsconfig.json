@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "strict": true,
+        "removeComments": true,
+        "target": "ESNext",
+        "module": "NodeNext"
+    },
+    "include": [
+        "src/**/*", 
+        "rollup.config.dev.ts", 
+        "rollup.config.prod.ts"
+    ],
+}
